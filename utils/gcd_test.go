@@ -10,7 +10,6 @@ func TestGCD(t *testing.T) {
 	b := int64(439)
 	x, y := GCD(a, b)
 	fmt.Printf("GCD(%d, %d) = %d*%d + %d*%d\n", a, b, x, a, y, b)
-
 }
 
 func TestGetGCD(t *testing.T) {
