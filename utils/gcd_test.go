@@ -6,8 +6,8 @@ import (
 )
 
 func TestGCD(t *testing.T) {
-	a := int64(70)
-	b := int64(20)
+	a := int64(986040)
+	b := int64(439)
 	x, y := GCD(a, b)
 	fmt.Printf("GCD(%d, %d) = %d*%d + %d*%d\n", a, b, x, a, y, b)
 }
